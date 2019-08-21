@@ -8,7 +8,7 @@ def hello(array)
    collection << yield(array[i])
     i += 1
   end
-   puts collection
+   collection
   #binding.pry
 end
 
